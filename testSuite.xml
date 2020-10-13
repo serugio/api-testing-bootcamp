@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--@author sergio garcia-->
+
+<suite name="finalExercise" verbose="1" >
+    <test name="bankTransaction" >
+        <classes>
+            <class name="academyapi.bankTransactionTest"></class>
+            <class name="academyapi.jiraBugsTest"></class>
+        </classes>
+    </test>
+</suite>
